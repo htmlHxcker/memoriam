@@ -1,6 +1,6 @@
 const DesignSystem = () => {
 	return (
-		<div className="container">
+		<div className="container bg-soapstone">
 			<h1>Design System</h1>
 		</div>
 	);

@@ -1,7 +1,23 @@
 /* ----------------- */
+/* Custom Properties */
+/* ----------------- */
+
+:root {
+	--clr-squash: 37 98% 54%;
+	--clr-jungle-mist: 203 28% 79%;
+	--clr-pickled-bluewood: 205 30% 27%;
+	--clr-firefly: 206 45% 15%;
+	--clr-porcelain: 0 0 95%;
+	--clr-grey-blue: 203 22% 55%;
+	--clr-hippie-blue: 205 37% 55%;
+	--clr-soapstone: 0 0% 99%;
+}
+
+/* ----------------- */
 /* Utility Classes   */
 /* ----------------- */
 
+/* General */
 .flex {
 	display: flex;
 	gap: var(--gap, 1rem);
@@ -28,4 +44,31 @@
 	clip: rect(0, 0, 0, 0);
 	white-space: nowrap;
 	border: 0;
+}
+
+/* Colors */
+
+.bg-squash {
+	background-color: hsl(var(--clr-squash));
+}
+.bg-jungle-mist {
+	background-color: hsl(var(--clr-jungle-mist) / 1);
+}
+.bg-pickled-bluewood {
+	background-color: hsl(var(--clr-pickled-bluewood) / 1);
+}
+.bg-firefly {
+	background-color: hsl(var(--clr-firefly) / 1);
+}
+.bg-porcelain {
+	background-color: hsl(var(--clr-porcelain) / 1);
+}
+.bg-grey-blue {
+	background-color: hsl(var(--clr-grey-blue) / 1);
+}
+.bg-hippie-blue {
+	background-color: hsl(var(--clr-hippie-blue) / 1);
+}
+.bg-soapstone {
+	background-color: hsl(var(--clr-soapstone));
 }

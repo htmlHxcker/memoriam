@@ -72,3 +72,28 @@
 .bg-soapstone {
 	background-color: hsl(var(--clr-soapstone));
 }
+
+.text-squash {
+	color: hsl(var(--clr-squash));
+}
+.text-jungle-mist {
+	color: hsl(var(--clr-jungle-mist) / 1);
+}
+.text-pickled-bluewood {
+	color: hsl(var(--clr-pickled-bluewood) / 1);
+}
+.text-firefly {
+	color: hsl(var(--clr-firefly) / 1);
+}
+.text-porcelain {
+	color: hsl(var(--clr-porcelain) / 1);
+}
+.text-grey-blue {
+	color: hsl(var(--clr-grey-blue) / 1);
+}
+.text-hippie-blue {
+	color: hsl(var(--clr-hippie-blue) / 1);
+}
+.text-soapstone {
+	color: hsl(var(--clr-soapstone));
+}

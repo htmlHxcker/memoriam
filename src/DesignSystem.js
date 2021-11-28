@@ -220,6 +220,19 @@ const DesignSystem = () => {
 					</div>
 				</div>
 			</section>
+
+			<section id="buttons">
+				<div>
+					<button className="btn menu-btn fs-600">Start Game</button>
+				</div>
+				<div>
+					<button className="btn menu-selection">Numbers</button>
+				</div>
+				<div>
+					<button className="btn menu-btn btn-primary">Restart</button>
+					<button className="btn btn-secondary">New Game</button>
+				</div>
+			</section>
 		</div>
 	);
 };

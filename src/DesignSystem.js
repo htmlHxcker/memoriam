@@ -150,6 +150,76 @@ const DesignSystem = () => {
 					</div>
 				</div>
 			</section>
+
+			<section id="typography" style={{ margin: '4rem 0' }}>
+				<h2>
+					<span className="text-jungle-mist">2</span> Typography
+				</h2>
+				<p className="fs-900">Atkinson Hyperlegible</p>
+				<div className="flex">
+					<div
+						className="flow"
+						style={{ flexBasis: '100%', '--flow-space': '3rem' }}
+					>
+						<div>
+							<p className="text-grey-blue">
+								<span className="text-firefly">H1</span> Atkinson Hyperlegible
+								Bold: 48px
+							</p>
+							<p className="fs-800">Donec neo justo eget</p>
+						</div>
+						<div>
+							<p className="text-grey-blue">
+								<span className="text-firefly">H2</span> Atkinson Hyperlegible
+								Bold: 32px
+							</p>
+							<p className="fs-600">Felis facilisis fermentum porttitor</p>
+						</div>
+						<div>
+							<p className="text-grey-blue">
+								<span className="text-firefly">H3</span> Atkinson Hyperlegible
+								Bold: 20px
+							</p>
+							<p className="fs-500">
+								Mauris sit amet orci. Aenean dignissim pellentesque felis.
+							</p>
+						</div>
+					</div>
+					<div
+						className="flow"
+						style={{
+							flexBasis: '100%',
+							'--flow-space': '3rem',
+						}}
+					>
+						<div>
+							<p className="text-grey-blue">
+								<span className="text-firefly">Body</span> Atkinson Hyperlegible
+								Bold; 18px
+							</p>
+							<p className="fs-400">
+								Donec nec justo eget felis facilisis fermentum. Aliquam
+								porttitor mauris sit amet orci. Aenean dignissim pellentesque
+								felis.
+							</p>
+						</div>
+						<div>
+							<p className="text-grey-blue">
+								<span className="text-firefly">6x6 Game Number</span> Atkinson
+								Hyperlegible Bold; 44px
+							</p>
+							<p className="fs-700">4</p>
+						</div>
+						<div>
+							<p className="text-grey-blue">
+								<span className="text-firefly">4x4 Game Number</span> Atkinson
+								Hyperlegible Bold; 56px
+							</p>
+							<p className="fs-900">4</p>
+						</div>
+					</div>
+				</div>
+			</section>
 		</div>
 	);
 };

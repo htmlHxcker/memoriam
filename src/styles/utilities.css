@@ -3,6 +3,7 @@
 /* ----------------- */
 
 :root {
+	/* colors */
 	--clr-squash: 37 98% 54%;
 	--clr-jungle-mist: 203 28% 79%;
 	--clr-pickled-bluewood: 205 30% 27%;
@@ -11,6 +12,17 @@
 	--clr-grey-blue: 203 22% 55%;
 	--clr-hippie-blue: 205 37% 55%;
 	--clr-soapstone: 0 0% 99%;
+
+	/* font-sizes */
+	--fs-400: 1.125rem;
+	--fs-500: 1.25rem;
+	--fs-600: 2rem;
+	--fs-700: 2.75rem;
+	--fs-800: 3rem;
+	--fs-900: 3.5rem;
+
+	/* font-families */
+	--ff-atkinson: 'Atkinson Hyperlegible', sans-serif;
 }
 
 /* ----------------- */
@@ -26,7 +38,9 @@
 	display: grid;
 	gap: var(--gap, 1rem);
 }
-
+.flow > *:where(:not(:first-child)) {
+	margin-top: var(--flow-space, 1rem);
+}
 .container {
 	padding-inline: 2em;
 	margin-inline: auto;
@@ -96,4 +110,28 @@
 }
 .text-soapstone {
 	color: hsl(var(--clr-soapstone));
+}
+
+/* Typography */
+.ff-atkinson {
+	font-family: var(--ff-atkinson);
+}
+
+.fs-900 {
+	font-size: var(--fs-900);
+}
+.fs-800 {
+	font-size: var(--fs-800);
+}
+.fs-700 {
+	font-size: var(--fs-700);
+}
+.fs-600 {
+	font-size: var(--fs-600);
+}
+.fs-500 {
+	font-size: var(--fs-500);
+}
+.fs-400 {
+	font-size: var(--fs-400);
 }

@@ -1,4 +1,4 @@
-import '../styles/utilities.css';
+import './Buttons.css';
 
 const Button = ({ value }) => {
 	return <input type="button" value={value} className="btn" />;
@@ -13,9 +13,7 @@ export const MenuSelection = ({ value }) => {
 };
 
 export const PrimaryButton = ({ value }) => {
-	return (
-		<input type="button" value={value} className="btn menu-btn btn-primary" />
-	);
+	return <input type="button" value={value} className="btn menu-btn " />;
 };
 
 export const SecondaryButton = ({ value }) => {

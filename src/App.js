@@ -1,10 +1,13 @@
+import Modal from './components/Modal';
+import TitleText from './components/TitleText';
 
 function App() {
-  return (
-    <div>
-      <h1> Hello World</h1>
-    </div>
-  );
+	return (
+		<div>
+			<TitleText titleColor={'text-firefly'} />
+			<Modal />
+		</div>
+	);
 }
 
 export default App;

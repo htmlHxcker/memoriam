@@ -1,13 +1,7 @@
 import './Modal.css';
 
-const Modal = () => {
-	return (
-		<div>
-			<div className="container--modal">
-				<div className="modal flow bg-soapstone"></div>
-			</div>
-		</div>
-	);
+const Modal = ({ children }) => {
+	return <div className="modal bg-soapstone">{children}</div>;
 };
 
 export default Modal;

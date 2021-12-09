@@ -1,11 +1,4 @@
 @import url('../styles/utilities.css');
-
-.container--modal {
-	padding-top: 10vh;
-}
 .modal {
 	border-radius: 10px;
-	height: 24.125em;
-	padding: 1.5rem;
-	margin-inline: 1.5rem;
 }

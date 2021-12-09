@@ -11,6 +11,7 @@ const StartScreen = () => {
 			</div>
 			<div className="container--modal">
 				<Modal>
+<<<<<<< HEAD
 					<form action="#" className="menu-form">
 						<div className="container--options">
 							<h3 className="text-grey-blue fs-400">Select Theme</h3>
@@ -34,6 +35,25 @@ const StartScreen = () => {
 								<MenuSelection value="4x4" wide={true} />
 								<MenuSelection value="6x6" wide={true} />
 							</div>
+=======
+					<form action="#">
+						<h3 className="text-grey-blue fs-400">Select Theme</h3>
+						<div className="flow flex">
+							<MenuSelection value="Numbers" />
+							<MenuSelection value="Icons" />
+						</div>
+						<h3 className="text-grey-blue fs-400">Number of Players</h3>
+						<div className="flow ">
+							<MenuSelection value="1" />
+							<MenuSelection value="2" />
+							<MenuSelection value="3" />
+							<MenuSelection value="4" />
+						</div>
+						<h3 className="text-grey-blue fs-400">Grid Size</h3>
+						<div className="flow ">
+							<MenuSelection value="4x4" />
+							<MenuSelection value="6x6" />
+>>>>>>> 28cd8e3fb178835e1736abd8342d8e5e5366015a
 						</div>
 						<PrimaryButton value="Start Game" />
 					</form>

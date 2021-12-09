@@ -8,12 +8,18 @@ export const MenuButton = ({ value }) => {
 	return <input type="button" value={value} className="btn menu-btn fs-600" />;
 };
 
-export const MenuSelection = ({ value }) => {
-	return <input type="button" value={value} className="btn menu-selection" />;
+export const MenuSelection = ({ value, wide = false }) => {
+	return (
+		<input
+			type="button"
+			value={value}
+			className={`btn menu-selection ${wide ? 'menu-selection--wide' : ''}`}
+		/>
+	);
 };
 
 export const PrimaryButton = ({ value }) => {
-	return <input type="button" value={value} className="btn menu-btn " />;
+	return <input type="button" value={value} className="btn btn-primary" />;
 };
 
 export const SecondaryButton = ({ value }) => {

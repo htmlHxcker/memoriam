@@ -1,11 +1,9 @@
-import Modal from './components/Modal';
-import TitleText from './components/TitleText';
+import StartScreen from './screens/Start.Screen';
 
 function App() {
 	return (
 		<div>
-			<TitleText titleColor={'text-firefly'} />
-			<Modal />
+			<StartScreen />
 		</div>
 	);
 }

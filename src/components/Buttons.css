@@ -1,25 +1,14 @@
 .btn {
-<<<<<<< HEAD
 	min-width: var(--btn-width, 3.875rem);
 	min-height: var(--btn-height, 2.5rem);
 	border-radius: var(--border-radius, 1.625rem);
-=======
-	min-width: var(--btn-width, 7.938rem);
-	min-height: var(--btn-height, 3.25rem);
-	border-radius: 35px;
->>>>>>> 28cd8e3fb178835e1736abd8342d8e5e5366015a
 	transition: transform 200ms ease-in-out;
 }
 
 .btn:hover,
 .btn:focus {
-<<<<<<< HEAD
 	cursor: pointer;
 	box-shadow: 7px 4px 17px -2px #b3b3b3;
-	/* box-shadow: 12px 14px 21px 0px rgba(189, 189, 189, 0.93); */
-=======
-	transform: scale(1.2);
->>>>>>> 28cd8e3fb178835e1736abd8342d8e5e5366015a
 }
 
 .menu-btn {
@@ -33,7 +22,6 @@
 }
 
 .menu-selection {
-<<<<<<< HEAD
 	background-color: hsl(var(--clr-grey-blue));
 	color: hsl(var(--clr-soapstone));
 }
@@ -42,21 +30,13 @@
 	--btn-width: 8.375rem;
 	--btn-height: 2.5rem;
 }
-=======
-	--btn-width: 16rem;
-	--btn-height: 3.25rem;
-	background-color: hsl(var(--clr-grey-blue));
-	color: hsl(var(--clr-soapstone));
-}
->>>>>>> 28cd8e3fb178835e1736abd8342d8e5e5366015a
 .menu-selection:hover {
 	background-color: hsl(var(--clr-hippie-blue));
 }
-.menu-selection:active {
+.active {
 	background-color: hsl(var(--clr-pickled-bluewood));
 }
 .btn-primary {
-<<<<<<< HEAD
 	--btn-width: 17.438rem;
 	--btn-height: 3rem;
 	color: hsl(var(--clr-porcelain));
@@ -64,11 +44,6 @@
 }
 .btn-primary:hover {
 	background-color: hsl(var(--clr-squash) / 70%);
-=======
-	--btn-width: 7.938rem;
-	--btn-height: 3.25rem;
-	border-radius: 26px;
->>>>>>> 28cd8e3fb178835e1736abd8342d8e5e5366015a
 }
 .btn-secondary {
 	border-radius: 26px;
@@ -79,7 +54,6 @@
 	background-color: hsl(var(--clr-hippie-blue));
 	color: hsl(var(--clr-soapstone));
 }
-<<<<<<< HEAD
 
 /* iPhone 5/SE-Specific Query */
 @media screen and (max-width: 320px) {
@@ -103,5 +77,3 @@
 		background-color: hsl(var(--clr-squash));
 	}
 }
-=======
->>>>>>> 28cd8e3fb178835e1736abd8342d8e5e5366015a

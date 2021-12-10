@@ -1,0 +1,24 @@
+@import url('../styles/utilities.css');
+
+body {
+	background-color: hsl(var(--clr-firefly));
+}
+.container--titletext {
+	padding-top: 5rem;
+}
+.container--modal {
+	padding-top: 2.813rem;
+	margin-inline: 1.25rem;
+}
+.menu-form {
+	padding: 1.5rem;
+}
+/* iPhone 5/SE-Specific Query */
+@media screen and (max-width: 320px) {
+	.container--titletext {
+		padding-top: 1.2rem;
+	}
+	.container--modal {
+		padding-top: 2rem;
+	}
+}

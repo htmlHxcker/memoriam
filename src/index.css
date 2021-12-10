@@ -1,5 +1,6 @@
+@import url('./styles/utilities.css');
 /* ----------------- */
-/* Reset           */
+/* Reset             */
 /* ----------------- */
 
 /* Box Sizing */
@@ -14,8 +15,6 @@ body,
 h1,
 h2,
 h3,
-h4,
-h5,
 p,
 figure,
 picture {
@@ -24,6 +23,10 @@ picture {
 
 /* Set up the body */
 body {
+	font-family: var(--ff-atkinson);
+	font-size: var(--fs-400);
+	color: hsl(var(--clr-soapstone));
+	background-color: hsl(var(--clr-soapstone));
 	line-height: 1.5;
 	min-height: 100vh;
 }
@@ -41,6 +44,7 @@ input,
 button,
 textarea,
 select {
+	border: none;
 	font: inherit;
 }
 

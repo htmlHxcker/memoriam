@@ -1,0 +1,4 @@
+@import url('../styles/utilities.css');
+.modal {
+	border-radius: 10px;
+}

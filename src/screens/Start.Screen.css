@@ -13,12 +13,6 @@ body {
 .menu-form {
 	padding: 1.5rem;
 }
-.container--options {
-	margin-bottom: 1.5rem;
-}
-.container--buttons {
-	margin-top: 0.688rem;
-}
 /* iPhone 5/SE-Specific Query */
 @media screen and (max-width: 320px) {
 	.container--titletext {

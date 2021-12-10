@@ -1,8 +1,10 @@
 import Modal from '../components/Modal';
 import TitleText from '../components/TitleText';
-import { MenuSelection, PrimaryButton } from '../components/Buttons';
+import { PrimaryButton } from '../components/Buttons';
 import './Start.Screen.css';
 import '../styles/utilities.css';
+import SettingsGroup from '../components/SettingsGroup';
+
 const StartScreen = () => {
 	return (
 		<div>
@@ -11,50 +13,30 @@ const StartScreen = () => {
 			</div>
 			<div className="container--modal">
 				<Modal>
-<<<<<<< HEAD
-					<form action="#" className="menu-form">
-						<div className="container--options">
-							<h3 className="text-grey-blue fs-400">Select Theme</h3>
-							<div className="flex container--buttons">
-								<MenuSelection value="Numbers" wide={true} />
-								<MenuSelection value="Icons" wide={true} />
-							</div>
-						</div>
-						<div className="container--options">
-							<h3 className="text-grey-blue fs-400">Number of Players</h3>
-							<div className="flex container--buttons">
-								<MenuSelection value="1" />
-								<MenuSelection value="2" />
-								<MenuSelection value="3" />
-								<MenuSelection value="4" />
-							</div>
-						</div>
-						<div className="container--options">
-							<h3 className="text-grey-blue fs-400">Grid Size</h3>
-							<div className="flex container--buttons">
-								<MenuSelection value="4x4" wide={true} />
-								<MenuSelection value="6x6" wide={true} />
-							</div>
-=======
-					<form action="#">
-						<h3 className="text-grey-blue fs-400">Select Theme</h3>
-						<div className="flow flex">
-							<MenuSelection value="Numbers" />
-							<MenuSelection value="Icons" />
-						</div>
-						<h3 className="text-grey-blue fs-400">Number of Players</h3>
-						<div className="flow ">
-							<MenuSelection value="1" />
-							<MenuSelection value="2" />
-							<MenuSelection value="3" />
-							<MenuSelection value="4" />
-						</div>
-						<h3 className="text-grey-blue fs-400">Grid Size</h3>
-						<div className="flow ">
-							<MenuSelection value="4x4" />
-							<MenuSelection value="6x6" />
->>>>>>> 28cd8e3fb178835e1736abd8342d8e5e5366015a
-						</div>
+					<form className="menu-form">
+						<SettingsGroup
+							settingsTitle="Select Theme"
+							buttons={[
+								{ value: 'Numbers', wide: true },
+								{ value: 'Icons', wide: true },
+							]}
+						/>
+						<SettingsGroup
+							settingsTitle="Number of Players"
+							buttons={[
+								{ value: '1', wide: false },
+								{ value: '2', wide: false },
+								{ value: '3', wide: false },
+								{ value: '4', wide: false },
+							]}
+						/>
+						<SettingsGroup
+							settingsTitle="Grid Size"
+							buttons={[
+								{ value: '4x4', wide: true },
+								{ value: '6x6', wide: true },
+							]}
+						/>
 						<PrimaryButton value="Start Game" />
 					</form>
 				</Modal>

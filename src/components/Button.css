@@ -26,7 +26,7 @@
 	color: hsl(var(--clr-soapstone));
 }
 
-.menu-selection--wide {
+.wide {
 	--btn-width: 8.375rem;
 	--btn-height: 2.5rem;
 }

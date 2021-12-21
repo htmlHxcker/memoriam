@@ -1,4 +1,4 @@
-import { MenuSelection } from '../components/Buttons';
+import Button from './Button';
 import './SettingsGroup.css';
 import '../styles/utilities.css';
 
@@ -8,11 +8,11 @@ const SettingsGroup = ({ settingsTitle, buttons }) => {
 			<h3 className="text-grey-blue fs-400">{settingsTitle}</h3>
 			<div className="flex container--buttons">
 				{buttons.map((button) => (
-					<MenuSelection
+					<Button
 						key={button.value}
 						value={button.value}
 						wide={button.wide}
-						className={buttons.indexOf(button) === 1 ? 'active' : ''}
+						menuSelection="menu-selection"
 					/>
 				))}
 			</div>

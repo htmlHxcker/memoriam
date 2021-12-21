@@ -1,6 +1,6 @@
 import Modal from '../components/Modal';
 import TitleText from '../components/TitleText';
-import { PrimaryButton } from '../components/Buttons';
+import Button from '../components/Button';
 import './Start.Screen.css';
 import '../styles/utilities.css';
 import SettingsGroup from '../components/SettingsGroup';
@@ -17,27 +17,27 @@ const StartScreen = () => {
 						<SettingsGroup
 							settingsTitle="Select Theme"
 							buttons={[
-								{ value: 'Numbers', wide: true },
-								{ value: 'Icons', wide: true },
+								{ value: 'Numbers', wide: 'wide' },
+								{ value: 'Icons', wide: 'wide' },
 							]}
 						/>
 						<SettingsGroup
 							settingsTitle="Number of Players"
 							buttons={[
-								{ value: '1', wide: false },
-								{ value: '2', wide: false },
-								{ value: '3', wide: false },
-								{ value: '4', wide: false },
+								{ value: '1' },
+								{ value: '2' },
+								{ value: '3' },
+								{ value: '4' },
 							]}
 						/>
 						<SettingsGroup
 							settingsTitle="Grid Size"
 							buttons={[
-								{ value: '4x4', wide: true },
-								{ value: '6x6', wide: true },
+								{ value: '4x4', wide: 'wide' },
+								{ value: '6x6', wide: 'wide' },
 							]}
 						/>
-						<PrimaryButton value="Start Game" />
+						<Button value="Start Game" primaryButton="btn-primary" />
 					</form>
 				</Modal>
 			</div>
